@@ -2,7 +2,7 @@
 
 已知矩阵 A 和 向量 b：
 
-![alt text](https://raw.githubusercontent.com/satoxi/satoxi.github.io/master/matrix/matrix_1.png "Fig.1")
+![Fig.1]({{ "/assets/matrix_1.png" | absolute_url }})
 
 如何计算 Ab 的乘积？比较普遍的计算方式，是使用 A 的每个行向量与 b 做点积运算，得出：
 
