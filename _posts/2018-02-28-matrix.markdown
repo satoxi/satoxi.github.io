@@ -1,12 +1,19 @@
+---
+layout: post
+title:  "Matrix!"
+date:   2018-02-28 14:06:00 +0800
+categories: 
+---
+
 ### 矩阵和空间的关系（1）
 
 已知矩阵 A 和 向量 b：
 
-![Fig.1]({{ "/assets/matrix_1.png" | absolute_url }})
+![Fig.1]({{ "/assets/matrix/matrix_1.png" | absolute_url }})
 
 如何计算 Ab 的乘积？比较普遍的计算方式，是使用 A 的每个行向量与 b 做点积运算，得出：
 
-![alt text](https://raw.githubusercontent.com/satoxi/satoxi.github.io/master/matrix/matrix_2.png "Fig.2")
+![Fig.2]({{ "/assets/matrix/matrix_2.png" | absolute_url }})
 
 不过今天要说的，是另一种计算方式：**从矩阵 A 的列向量出发求解**。
 
@@ -14,11 +21,11 @@
 
 上面的例子中，矩阵 A 定义了从世界原点出发的两个方向，(1, 0) 和 (0, 1)，向量 b 则表示，沿着 (1, 0) 方向走了 b1 的距离，同时沿着 (0, 1) 方向 走了 b2 的距离，也就是：
 
-![alt text](https://raw.githubusercontent.com/satoxi/satoxi.github.io/master/matrix/matrix_3.png "Fig.3")
+![Fig.3]({{ "/assets/matrix/matrix_3.png" | absolute_url }})
 
 现在，我们来看一下平面直角坐标系：
 
-![alt text](https://raw.githubusercontent.com/satoxi/satoxi.github.io/master/matrix/matrix_4.png "Fig.4")
+![Fig.4]({{ "/assets/matrix/matrix_4.png" | absolute_url }})
 
 可以发现，**矩阵 A 的列向量定义的两个方向刚好分别与坐标系的 x 轴和 y 轴方向重合**，也就是说，矩阵 A 定义了这个平面直角坐标系，或者说定义了一个**二维空间**。
 
@@ -26,7 +33,7 @@
 
 基于此，我们插播一条纯粹的数学问题，目的是希望大家明白，将矩阵与空间关联起来是多么的美好：
 
-![alt text](https://raw.githubusercontent.com/satoxi/satoxi.github.io/master/matrix/matrix_5.png "Fig.5")
+![Fig.5]({{ "/assets/matrix/matrix_5.png" | absolute_url }})
 
 学过线性代数的应该知道，如果想要上述等式有解，矩阵 B 需要满足一些条件，由于我当时学的时候是硬背下来的，所以并不能理解个中奥秘。但如果用空间的思想，就会容易很多。
 
